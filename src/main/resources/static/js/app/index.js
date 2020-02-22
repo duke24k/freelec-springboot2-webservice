@@ -14,7 +14,7 @@ var main = {
 
         $.ajax({
             type: 'POST',
-            url: '/api/vi/posts',
+            url: '/api/v1/posts',
             dataType: 'json',
             contentType: 'application/json; charset=utf-8',
             data: JSON.stringify(data)
@@ -27,4 +27,4 @@ var main = {
     }
 };
 
-index.init()
+main.init()
