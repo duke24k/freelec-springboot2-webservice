@@ -22,7 +22,6 @@ import static org.hamcrest.Matchers.is;
         @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = SecurityConfig.class)
 })
 public class HelloControllerTest {
-
     @Autowired
     private MockMvc mvc;
 
@@ -38,6 +37,7 @@ public class HelloControllerTest {
     @WithMockUser(roles = "USER")
     @Test
     public void helloDto가_리턴된다() throws Exception{
+        System.out.println(123);
         String name = "hello";
         int amount = 1000;
 
