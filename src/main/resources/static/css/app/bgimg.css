@@ -1,4 +1,5 @@
 body {
-    background-image: url("../../images/app/spring.jpeg");
-    background-repeat: no-repeat;
+    background-image: url("../../images/app/spring2.jpeg", "../../images/app/spring3.jpeg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right;
 }
