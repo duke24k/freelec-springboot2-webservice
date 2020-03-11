@@ -8,7 +8,5 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 // @EnableJpaAuditing
 @SpringBootApplication // @SpringBootApplication 있는 클래스가 가장 최상단 디렉토리에 위치해야 한다.
 public class Application {
-    public static void main(String[] args) {
-        SpringApplication.run(Application.class,args);
-    }
+    public static void main(String[] args) { SpringApplication.run(Application.class,args); }
 }
