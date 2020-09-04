@@ -45,7 +45,9 @@ public class PostsApiControllerTest {
     @Autowired
     private WebApplicationContext context;
 
+    @Autowired
     private MockMvc mvc;
+
     @Before
     public void setup(){
         mvc = MockMvcBuilders
